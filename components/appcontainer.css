@@ -1,0 +1,22 @@
+.header{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.header > button {
+    margin-right: 10px;
+}
+.searchbox{
+    width: 400px;
+    height: 30px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 16px; /* Space between cards */
+    padding: 16px; /* Padding around the grid */
+  }
+  

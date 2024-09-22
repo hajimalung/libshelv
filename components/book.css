@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 190px;
+    height: 150px;
+    background-color: white; /* Card background color */
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 16px; /* Inner padding */
+    transition: transform 0.2s; /* Smooth scaling effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    border-color: blue;
+  }
